@@ -1,0 +1,395 @@
+body{
+    background-color:aliceblue;
+    margin:0px;
+    padding:0;
+} 
+body::-webkit-scrollbar{
+    width:0.25rem;
+    height:0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background:grey;
+}
+body::-webkit-scrollbar-thumb{
+    background:orange;
+}
+nav{
+    background-color:#333232;
+    height:3rem;
+    width:208vh;
+}
+
+/* Style the links inside the navigation bar */
+nav il {
+ padding: 10px 20px;
+ float:right;
+ margin-left:1;
+}
+nav il:hover{
+    background-color: 4A4949;
+}
+.fa-home{
+    color:33FF74;
+    font-size:25;
+}
+.fa-cog{
+    color:33FF74;
+    font-size:25;
+}
+
+
+.fa-dice-d20{
+    color:33FF74;
+    font-size:25;
+}
+.fa-gamepad{
+    color:33FF74;
+    font-size:25;
+}
+.fa-users{
+    color:33FF74;
+    font-size:25;
+}
+.fa-chevron-left{
+    position: absolute;
+    margin-top:235;
+    font-size:60;
+    margin-left:100;
+}
+.fa-chevron-right{
+    position: absolute;
+    margin-top:235;
+    font-size:60;
+    margin-left:1240;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:darkorange;
+}
+.tope{
+    position:absolute;
+    color:aliceblue;
+    padding-left:70;
+    font-size:30;
+    margin-top:5;
+}
+.clop{
+    position:absolute;
+    padding-left:10;
+}
+.start-img{
+    position:absolute;
+    
+}
+.start-text{
+    color: white;
+    font-size:150;
+    margin:30;
+    position:absolute;
+    font-family: 'Baloo';
+    
+}
+.start-text2{
+    color: white;
+    font-size:150;
+    margin:30;
+    padding-top:220;
+    position:absolute;
+    font-family: 'Baloo';
+}
+.start-text3{
+    color: white;
+    font-size:150;
+    margin:30;
+    padding-top:440;
+    position:absolute;
+    font-family: 'Baloo';
+}
+.who{
+    text-align: center;
+    font-size:60;
+    font-family: "Fredoka One";
+}
+.who-des{
+    text-align: center;
+    font-size:30;
+    margin: 0;
+    padding-left:250;
+    padding-right:250;
+    font-family: Lato;
+}
+.learn{
+    text-align: center;
+    font-size: 60;
+    margin:0;
+    font-family: "Lato";
+}
+/*.learn-des{
+    padding-left: 105;
+    padding-right:500;
+    font-size:30;
+}*/
+.r{
+    position:absolute;
+    padding-left:100;
+}
+.rr{
+    margin:0;
+    position:absolute;
+    padding-left:700;
+    color:#5B33FF;
+    font-family:baloo;
+    font-size:150;
+}
+.vr{
+    margin:150;
+    position:absolute;
+    padding-left:575;
+    color:#5B33FF;
+    font-family:baloo;
+    font-size:150;
+}
+.sr{
+    margin:300;
+    position:absolute;
+    padding-left:470;
+    color:#5B33FF;
+    font-family:baloo;
+    font-size:150;
+}
+.tree{
+    padding-left: 320;
+}
+.starter{
+     text-align: center;
+    font-size:60;
+    font-family: "Fredoka One"
+}
+.footer{
+    background-color:antiquewhite;
+}
+.footer-des{
+    text-align: center;
+    font-family: Lato; 
+    padding-left: 400;
+    padding-right: 400;
+    font-size:25;
+}
+.footer-e{
+    text-align: center;
+    font-family: Lato; 
+    font-size:30;
+}
+.footer-des{
+    text-align: center;
+    font-family: Lato;    
+}
+.footer-logo{
+    padding-left:600;
+}
+.footer-end{
+    text-align: center;
+    font-family: Lato;
+    font-size:25;
+}
+.ask-des-i{
+    margin:0;
+    padding-left:100;
+    color:#5B33FF;
+    font-family:Lato;
+    font-size:150;
+}
+.ask-des-ii{
+    margin:0;
+    padding-left:100;
+    padding-right:575;
+    color:#333;
+    font-family:Lato;
+    font-size:25;
+}
+.question{
+    position:absolute;
+    padding-left:800;
+}
+.question-i{
+    position:absolute;
+    padding-left:820;
+}
+.question-ii{
+    position:absolute;
+    padding-left:900;
+}
+.learn-des-i{
+    margin:0;
+    padding-left:100;
+    color:#5B33FF;
+    font-family:Lato;
+    font-size:150;
+}
+.learn-des-ii{
+    margin:0;
+    padding-left:100;
+    padding-right:575;
+    color:#333;
+    font-family:Lato;
+    font-size:25;
+}
+.do-des-i{
+    margin:0;
+    padding-left:100;
+    color:#5B33FF;
+    font-family:Lato;
+    font-size:150;
+}
+.do-des-ii{
+    margin:0;
+    padding-left:100;
+    padding-right:575;
+    color:#333;
+    font-family:Lato;
+    font-size:25;
+}
+.founders{
+    text-align: center;
+    font-size: 60;
+    margin:0;
+    font-family: "Lato";
+}
+
+.f1{
+    border-radius:50%;
+    margin-left:250;
+}
+.f2{
+    border-radius:50%;
+    margin-left:300;
+}
+.n1{
+    margin-left:280;
+    position:absolute;
+    font-family: Lato;
+}
+.n2{
+    margin-left:860;
+    position:absolute;
+    font-family: Lato;
+}
+.n11{
+     margin-left:310;
+    margin-top:80;
+    position:absolute;
+    font-family: Lato;
+    font-size:30;
+}
+.n22{
+     margin-left:880;
+    margin-top:80;
+    position:absolute;
+    font-family: Lato;
+    font-size:30;
+}
+.future{
+    text-align: center;
+    font-size: 60;
+    margin:0;
+    font-family: "Lato";
+}
+.future-des{
+    text-align: center;
+    font-size:25;
+    margin: 0;
+    padding-left:250;
+    padding-right:250;
+    font-family: Lato;
+    color:#333;
+    font-family:Lato;
+}
+.current{
+    text-align: center;
+    font-family: Lato;
+    font-size:40;
+}
+.curmain{
+    margin-left:170;
+}
+.curmaini{
+    margin-left:480;
+    padding-right:100;
+}
+.curmainit{
+    margin-left:450;
+    
+}
+str{
+    position:absolute;
+}
+.logofot{
+    margin-left:545;
+}
+.tutorialbox{
+    
+    position:absolute;
+    margin-left:100;
+    margin-right:100;
+    box-shadow:0px 5px 15px 0.1px ;
+    height: 400;
+    width:350;
+    border-radius:1rem;
+    float:left;
+}
+.tutorialbox:hover{
+    background-color:dimgray;
+    color:aliceblue;
+}
+.tutor1{
+    text-align:center;
+    font-family:Lato;
+    font-size:23;
+    text-decoration-line: none;
+    color:black;
+    
+}
+.tutor1:hover{
+    text-align:center;
+    font-family:Lato;
+    font-size:23;
+    text-decoration-line: none;
+    color:white;
+    
+}
+.tutorialbox2{
+    margin-left:500;
+    margin-right:10;
+    box-shadow:0px 5px 15px 0.1px ;
+    height: 400;
+    width:350;
+    border-radius:1rem;
+    float:left;
+}
+.tutorialbox:hover{
+    background-color:dimgray;
+    color:aliceblue;
+}
+.tutorialbox2:hover{
+    background-color:dimgray;
+    color:aliceblue;
+}
+.tutorialbox3:hover{
+    background-color:dimgray;
+    color:aliceblue;
+}
+.tutorialbox3{
+    margin-left:900;
+    margin-right:100;
+    box-shadow:0px 5px 15px 0.1px ;
+    height: 400;
+    width:350;
+    border-radius:1rem;
+}
+#tard1{
+    margin-left: 260;
+    box-shadow: 0px 5px 15px 0.1px ;
+    margin-right:250;
+}
